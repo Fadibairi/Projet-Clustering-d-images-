@@ -12,7 +12,7 @@ Autoencodeur convolutionnel pour une représentation globale profonde.
 📸 Présentation générale
 À partir d'un dossier contenant des images classées par dossier (classe réelle), le pipeline extrait les features de chaque image, les combine, applique une réduction de dimension (UMAP), puis effectue le clustering avec différentes méthodes (KMeans, Agglomerative, DBSCAN).
 
-🧱 Descripteurs utilisés
+🧱 Descripteurs utilisés : 
 Descripteur	Rôle
 🧩 SIFT	Détecte les points clés (formes, motifs locaux)
 🎨 Histogramme	Capture la distribution des couleurs (HSV)
